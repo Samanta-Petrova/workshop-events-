@@ -8,6 +8,17 @@
 
 /*3. Brug javascript til at skifte billedet ud i .bigPicture-boksen, brug dette eller noget helt andet: https://cdn.pixabay.com/photo/2017/09/28/13/18/amusement-2795490_960_720.jpg */
 // Samanta
+
+
+
+
+
+
+
+
+
+
+
 const imgEl = document.querySelector(".bigPicture");
 bigPicture.style.background = "https://cdn.pixabay.com/photo/2017/09/28/13/18/amusement-2795490_960_720.jpg`)";
 
