@@ -1,0 +1,167 @@
+/* Typografi */
+html {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+/* No mo' typografi */
+
+body {
+  margin: 0;
+  background: url("../img/geometry.png");
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background: linear-gradient(to bottom, #f6e6b4 0%, #ed9017 100%);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.topRow {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0);
+  transition: 0.4s all;
+}
+
+.navbar ul a:hover {
+  background: rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+}
+
+.navbar .social a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar .social i {
+  font-size: 1.7rem;
+  padding: 5px;
+}
+
+.container h1 {
+  padding: 50px 0 100px 0;
+  text-align: center;
+  font-size: 3rem;
+  transform: rotate(3deg);
+  margin-bottom: 0;
+}
+
+main {
+  margin-top: 5px;
+}
+
+main .bigPicture {
+  background-image: url("https://picsum.photos/1500/300");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 100px 0 150px 0;
+}
+
+main h2 {
+  font-size: 2.3rem;
+  color: #eee;
+  display: inline-block;
+  padding: 10px 40px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+main .articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .articles article {
+  width: 29.3333%;
+  margin: 1%;
+  padding: 1%;
+  background: white;
+}
+
+main img {
+  width: 100%;
+}
+
+footer {
+  background: linear-gradient(to top, #f6e6b4 0%, #ed9017 100%);
+}
+
+footer .container {
+  display: flex;
+}
+
+footer .container > div {
+  margin: 1rem;
+}
+
+footer .container h6 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Helperclasses */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* crazyPopup */
+.crazyPopup {
+  position: fixed;
+  right: -400px;
+  top: 10rem;
+  background: #dda7ed;
+  color: #eee;
+  padding: 100px 50px;
+  border: 2px solid purple;
+  box-shadow: 0 14px 2px -8px rgba(0, 0, 0, 0.3);
+  transition: 1s all;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px hsla(34, 86%, 53%, 0.3);
+
+  background: hsla(34, 86%, 83%, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(34, 86%, 53%);
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  outline: 1px solid slategrey;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(34, 36%, 53%);
+}
