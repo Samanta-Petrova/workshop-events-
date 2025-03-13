@@ -47,6 +47,42 @@ bigPicture.style.background = "https://cdn.pixabay.com/photo/2017/09/28/13/18/am
 //Thomas
 //
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function addIcon (){
+    // opret et <a> tag til icon
+    const favIcon = document.createElement("a");
+    // opret billede tag for iconet (img nu hvor det er link)
+    const hearthstoneIcon = document.createElement("img");
+    // konstasere src for linket fordi noget skal linkes til
+    hearthstoneIcon.src = "https://hearthstoneapi.com/favicon.ico";
+    // Nu tilføj dit billede til dit a tag
+    favIcon.appendChild(hearthstoneIcon);
+    // Hvor skal den placeres? Ja inde i div med class .social
+    const socialDiv = document.querySelector(".social");
+    socialDiv.appendChild(favIcon);
+    // Ændre størrelse på logoet
+    hearthstoneIcon.style.width = "24px";
+    hearthstoneIcon.style.height = "24px";
+}
+addIcon()
+//   
 /*5.1 Brug javascript til at gemme teksterne væk i artiklerne <p>-tags. Indsæt istedet link med "Læs mere..." */
 //
 //
