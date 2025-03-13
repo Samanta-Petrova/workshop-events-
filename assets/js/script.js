@@ -13,6 +13,25 @@
 /*4. Brug javascript til at indsætte et favicon - f.eks. det her http://hearthstoneapi.com/favicon.ico (I know...hvorfor ville man nogensinde gøre det irl...men for øvelsens skyld) */
 //Thomas
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function addIcon (){
     // opret et <a> tag til icon
     const favIcon = document.createElement("a");
