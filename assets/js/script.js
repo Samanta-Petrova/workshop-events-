@@ -1,5 +1,9 @@
 /*1. Anvende javascript til at skifte farven i de sociale elementer til en mere passende farve (jeres vurdering) */
 // Emelia
+const socialeColor = document.querySelectorAll('.fa');
+for (i = 0; i < socialeColor.length; i++) {
+    socialeColor[i].style.color = '#8d5607';
+}
 //
 
 /*2. Se den lidt skæve h1 i header - sørg for den ved hover "shaker"/ryster sig lidt. I bedes anvende javascript til at løse denne opgave - måske i kombination med css. Der findes endda js libraries/biblioteker I kan se på til formålet, f.eks. anime.js */
