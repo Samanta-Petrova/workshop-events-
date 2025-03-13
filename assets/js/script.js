@@ -6,6 +6,20 @@
 // Debbie
 //
 
+   // Get references to the h1
+        const h1El = document.querySelector('h1');
+   
+        // Add an event listener
+        h1El.addEventListener('mouseover', () => {
+            // Add the 'shake' class to the h1 to trigger the animation
+            h1El.classList.add('shake');
+
+            // Remove the 'shake' class after the animation ends (to allow it to be triggered again)
+            setTimeout(() => {
+                h1El.classList.remove('shake');
+            }, 500); // Duration of the shake animation (500ms)
+        });
+
 /*3. Brug javascript til at skifte billedet ud i .bigPicture-boksen, brug dette eller noget helt andet: https://cdn.pixabay.com/photo/2017/09/28/13/18/amusement-2795490_960_720.jpg */
 // Samanta
 //
